@@ -29,7 +29,7 @@ jobs:
             echo "Docker Hub token is missing"
             exit 1
           fi
-          echo "Both Docker Hub secrets are present"
+          echo "Both Docker Hub secrets are present!"
 
       - name: Login to Docker Hub
         uses: docker/login-action@v3
